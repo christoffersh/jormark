@@ -1,3 +1,9 @@
+# folders
+/bin
+
+# vim
+*.swp
+
 # Prerequisites
 *.d
 
@@ -30,3 +36,7 @@
 *.exe
 *.out
 *.app
+
+# markup
+*.html
+*.jm
