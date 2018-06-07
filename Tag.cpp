@@ -11,7 +11,7 @@ std::string Tag::generate_html( unsigned level ) const
 	std::string tabs;
 	
 	for (int i=0; i < level; i++)
-		tabs += "[TAB]"; // chance to \t later
+		tabs += '\t'; 
 	
 	std::string str;
 
